@@ -5,7 +5,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/ #服务注册的地址
   instance:
-    instance-id: elasticserch-service:9300
+    instance-id: elasticserch-service:9999
     prefer-ip-address: true
 
 spring:
