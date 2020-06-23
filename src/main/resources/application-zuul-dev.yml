@@ -13,6 +13,10 @@ zuul:
     course:
       path: /file/**
       service-id: file-service
+    course:
+      path: /elasticserch/**
+      service-id: elasticserch-service
+
 
 eureka:
   client:
